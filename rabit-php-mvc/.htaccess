@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# URL újraírás az /users URL-ről a /view/userList.php fájlra
+RewriteRule ^users$ view/userList.php [L]
+
+# URL újraírás az /ads URL-ről a /view/adList.php fájlra
+RewriteRule ^ads$ view/adList.php [L]
